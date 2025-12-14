@@ -1,0 +1,147 @@
+    1  date
+    2  pwd
+    3  ls
+    4  ls Desktop/
+    5  date
+    6  pwd
+    7  ls
+    8  cd Desktop/
+    9  mkdir cs_100_days_challenge
+   10  touch cs_100_days_challenge.txt
+   11  ls
+   12  cd cs_100_days_challenge/
+   13  mkdir ls_folder
+   14  cd ls_folder/
+   15  touch ls_file1.txt ls_file2.txt ls_file3.txt ls_file4.java ls_file5.html ls_file6.kt
+   16  cd ~
+   17  ls Desktop/cs_100_days_challenge/ls_folder/*.txt
+   18  cd Desktop/cs_100_days_challenge/ls_folder/
+   19  ls *.txt
+   20  clear
+   21  ls -l /
+   22  ls -lt
+   23  clear
+   24  cd ~
+   25  date
+   26  ls
+   27  cd Desktop/cs_100_days_challenge/ls_folder/
+   28  ls
+   29  cst ls_file7_out.txt
+   30  cat ls_file7_out.txt
+   31  ls > ls_file8_out.txt
+   32  cat ls_file8_out.txt
+   33  cd ~
+   34  ls
+   35  cd Desktop/
+   36  ls
+   37  ls -d */
+   38  cd cs_100_days_challenge/ls_folder/
+   39  mkdir folder(1,2)
+   40  mkdir folder{1,2}
+   41  ls
+   42  clear
+   43  mkdir folder{3,4,5}
+   44  ls
+   45  ls -d folder{1,2}
+   46  man ls
+   47  clear
+   48  touch ls_file_day6.txt
+   49  date > ls_file_day6.txt
+   50  cat ls_file_day6.txt
+   51  history >> ls_file_day6.txt
+   52  cat ls_file_day6.txt
+   53  cd ~
+   54  ls -l
+   55  cd Desktop/
+   56  ls -l
+   57  cd cs_100_days_challenge/
+   58  ls
+   59  ls -l
+   60  cd ls_folder/
+   61  ls -l
+   62  ls -l >> ls_file_day6.txt
+   63  cat ls_file_day6.txt
+   64  ls -l
+   65  clear
+   66  ls -l
+   67  clear
+   68  cd ~
+   69  clear
+   70  ls -l
+   71  cd Desktop/
+   72  ls -l
+   73  cd cs_100_days_challenge/
+   74  ls
+   75  cd ls_folder/
+   76  ls
+   77  ls -l
+   78  ls -l >> ls_file_day6.txt
+   79  cat ls_file_day6.txt
+   80  ls -l
+   81  cd ~
+   82  history >> note.txt
+   83  ls
+   84  cd
+   85  cd -
+   86  cd
+   87  cd -
+   88  cd /home/gugu
+   89  pwd
+   90  cd -
+   91  pwd
+   92  cd ..
+   93  cd -
+   94  cd ls_folder/
+   95  cd ../..
+   96  cd cs_100_days_challenge/ls_folder/
+   97  cd ../..
+   98  cd /home/gugu/Desktop/cs_100_days_challenge/
+   99  ls
+  100  cd cd_folder/
+  101  ls
+  102  cd My folder
+  103  cd 'My folder'/
+  104  cd ..
+  105  cd My\folder/
+  106  cd My\ folder/
+  107  clear
+  108  cd ../..
+  109  mkdir cat_folder
+  110  cd cat_folder/
+  111  cat
+  112  touch cat_file1.txt cat_file2.txt
+  113  date > cat_file1.txt
+  114  pwd > cat_file
+  115  date > cat_file.txt
+  116  pwd > cat_file
+  117  cat cat_file.txt
+  118  pwd > cat_file2.txt
+  119  cat cat_file2.txt
+  120  cat cat_file.txt cat_file2.txt
+  121  touch cat_file4.txt
+  122  cat cat_file4.txt
+  123  cat -b cat_file4.txt
+  124  cat cat_file4.txt
+  125  cat -n cat_file4.txt
+  126  cat -s cat_file4.txt
+  127  cat cat_file4.txt
+  128  cat -E cat_file4.txt
+  129  clear
+  130  ls
+  131  touch cat_file5_combined.txt
+  132  cat cat_file5_combined.txt
+  133  cat cat_file.txt cat_file2.txt cat_file1.txt
+  134  clear
+  135  cat cat_file.txt cat_file4.txt > cat_file5_combined.txt
+  136  cat cat_file5_combined.txt
+  137  cat cat_file2.txt
+  138  cat cat_file2.txt > cat_file5_combined.txt
+  139  cat cat_file5_combined.txt
+  140  cat cat_file.txt cat_file4.txt >> cat_file5_combined.txt
+  141  cat cat_file5_combined.txt
+  142  cat cat_file5_combined.txt > cat_file6_new.txt
+  143  cat cat_file6_new.txt
+  144  mkdir command_histories
+  145  touch day_7.txt
+  146  history > day_7.txt
+Wed Nov 19 07:09:32 PM +0630 2025

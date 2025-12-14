@@ -1,0 +1,87 @@
+    1  date
+    2  pwd
+    3  ls
+    4  ls Desktop/
+    5  date
+    6  pwd
+    7  ls
+    8  cd Desktop/
+    9  mkdir cs_100_days_challenge
+   10  touch cs_100_days_challenge.txt
+   11  ls
+   12  cd cs_100_days_challenge/
+   13  mkdir ls_folder
+   14  cd ls_folder/
+   15  touch ls_file1.txt ls_file2.txt ls_file3.txt ls_file4.java ls_file5.html ls_file6.kt
+   16  cd ~
+   17  ls Desktop/cs_100_days_challenge/ls_folder/*.txt
+   18  cd Desktop/cs_100_days_challenge/ls_folder/
+   19  ls *.txt
+   20  clear
+   21  ls -l /
+   22  ls -lt
+   23  clear
+   24  cd ~
+   25  date
+   26  ls
+   27  cd Desktop/cs_100_days_challenge/ls_folder/
+   28  ls
+   29  cst ls_file7_out.txt
+   30  cat ls_file7_out.txt
+   31  ls > ls_file8_out.txt
+   32  cat ls_file8_out.txt
+   33  cd ~
+   34  ls
+   35  cd Desktop/
+   36  ls
+   37  ls -d */
+   38  cd cs_100_days_challenge/ls_folder/
+   39  mkdir folder(1,2)
+   40  mkdir folder{1,2}
+   41  ls
+   42  clear
+   43  mkdir folder{3,4,5}
+   44  ls
+   45  ls -d folder{1,2}
+   46  man ls
+   47  clear
+   48  touch ls_file_day6.txt
+   49  date > ls_file_day6.txt
+   50  cat ls_file_day6.txt
+   51  history >> ls_file_day6.txt
+   52  cat ls_file_day6.txt
+   53  cd ~
+   54  ls -l
+   55  cd Desktop/
+   56  ls -l
+   57  cd cs_100_days_challenge/
+   58  ls
+   59  ls -l
+   60  cd ls_folder/
+   61  ls -l
+   62  ls -l >> ls_file_day6.txt
+   63  cat ls_file_day6.txt
+   64  ls -l
+   65  clear
+   66  ls -l
+   67  clear
+   68  cd ~
+   69  clear
+   70  ls -l
+   71  cd Desktop/
+   72  ls -l
+   73  cd cs_100_days_challenge/
+   74  ls
+   75  cd ls_folder/
+   76  ls
+   77  ls -l
+   78  ls -l >> ls_file_day6.txt
+   79  cat ls_file_day6.txt
+   80  ls -l
+   81  cd ~
+   82  history >> note.txt
+   83  ls
+   84  cd
+   85  touch day8.txt
+   86  history > day8.txt
+Thu Nov 20 07:12:26 PM +0630 2025

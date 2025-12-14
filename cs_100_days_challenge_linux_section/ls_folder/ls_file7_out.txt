@@ -1,0 +1,8 @@
+total 0
+-rw-rw-r-- 1 gugu gugu 0 Nov 18 20:14 ls_file1.txt
+-rw-rw-r-- 1 gugu gugu 0 Nov 18 20:14 ls_file2.txt
+-rw-rw-r-- 1 gugu gugu 0 Nov 18 20:14 ls_file3.txt
+-rw-rw-r-- 1 gugu gugu 0 Nov 18 20:14 ls_file4.java
+-rw-rw-r-- 1 gugu gugu 0 Nov 18 20:14 ls_file5.html
+-rw-rw-r-- 1 gugu gugu 0 Nov 18 20:14 ls_file6.kt
+-rw-rw-r-- 1 gugu gugu 0 Nov 18 20:22 ls_file7_out.txt

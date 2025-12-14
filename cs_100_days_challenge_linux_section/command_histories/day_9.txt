@@ -1,0 +1,137 @@
+    1  date
+    2  pwd
+    3  ls
+    4  ls Desktop/
+    5  date
+    6  pwd
+    7  ls
+    8  cd Desktop/
+    9  mkdir cs_100_days_challenge
+   10  touch cs_100_days_challenge.txt
+   11  ls
+   12  cd cs_100_days_challenge/
+   13  mkdir ls_folder
+   14  cd ls_folder/
+   15  touch ls_file1.txt ls_file2.txt ls_file3.txt ls_file4.java ls_file5.html ls_file6.kt
+   16  cd ~
+   17  ls Desktop/cs_100_days_challenge/ls_folder/*.txt
+   18  cd Desktop/cs_100_days_challenge/ls_folder/
+   19  ls *.txt
+   20  clear
+   21  ls -l /
+   22  ls -lt
+   23  clear
+   24  cd ~
+   25  date
+   26  ls
+   27  cd Desktop/cs_100_days_challenge/ls_folder/
+   28  ls
+   29  cst ls_file7_out.txt
+   30  cat ls_file7_out.txt
+   31  ls > ls_file8_out.txt
+   32  cat ls_file8_out.txt
+   33  cd ~
+   34  ls
+   35  cd Desktop/
+   36  ls
+   37  ls -d */
+   38  cd cs_100_days_challenge/ls_folder/
+   39  mkdir folder(1,2)
+   40  mkdir folder{1,2}
+   41  ls
+   42  clear
+   43  mkdir folder{3,4,5}
+   44  ls
+   45  ls -d folder{1,2}
+   46  man ls
+   47  clear
+   48  touch ls_file_day6.txt
+   49  date > ls_file_day6.txt
+   50  cat ls_file_day6.txt
+   51  history >> ls_file_day6.txt
+   52  cat ls_file_day6.txt
+   53  cd ~
+   54  ls -l
+   55  cd Desktop/
+   56  ls -l
+   57  cd cs_100_days_challenge/
+   58  ls
+   59  ls -l
+   60  cd ls_folder/
+   61  ls -l
+   62  ls -l >> ls_file_day6.txt
+   63  cat ls_file_day6.txt
+   64  ls -l
+   65  clear
+   66  ls -l
+   67  clear
+   68  cd ~
+   69  clear
+   70  ls -l
+   71  cd Desktop/
+   72  ls -l
+   73  cd cs_100_days_challenge/
+   74  ls
+   75  cd ls_folder/
+   76  ls
+   77  ls -l
+   78  ls -l >> ls_file_day6.txt
+   79  cat ls_file_day6.txt
+   80  ls -l
+   81  cd ~
+   82  history >> note.txt
+   83  ls
+   84  cd
+   85  mkdir delete_folder
+   86  ls
+   87  rmdir delete_folder/
+   88  ls
+   89  mkdir java/ kotlin/ javascript/ python/
+   90  ls
+   91  rmdir java/ kotlin/ javascript/ python/
+   92  ls
+   93  mkdir english/ japanese/ thai/
+   94  touch english/chapter1/lesson1.txt
+   95  mkdir english/chapter1/
+   96  touch english/chapter1/lesson1.txt
+   97  ls english/chapter1/
+   98  rmdir english/ japanese/ thai/
+   99  mkdir japanese/chapter1
+  100  ls
+  101  mkdir -p japanese/chapter1
+  102  ls
+  103  rmdir japanese/
+  104  rm -r english/
+  105  ls
+  106  rm -r japanese/
+  107  ls
+  108  clear
+  109  ls
+  110  mkdir languages/
+  111  ls
+  112  mkdir -p  languages/english/chapter1
+  113  ls -R languages/
+  114  rmdir languages/english/chapter1/
+  115  ls
+  116  ls -R languages/
+  117  mkdir languages/english/vocab/
+  118  rmdir -p languages/english/vocab/
+  119  ls
+  120  mkdir -pv languages/english/vocab/
+  121  rmdir -pv languages/english/vocab/
+  122  cd
+  123  cd Desktop/
+  124  ls
+  125  cd cs_100_days_challenge/
+  126  ls
+  127  cd command_histories/
+  128  touch day9.txt
+  129  history > day9.txt
+  130  date >> day9.txt
+  131  cat day9.txt
+  132  history > day9.txt
+  133  ls
+  134  touch day_9.txt
+  135  ls
+  136  history > day_9.txt
+Fri Nov 21 08:50:26 PM +0630 2025

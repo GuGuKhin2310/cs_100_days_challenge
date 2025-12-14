@@ -1,0 +1,240 @@
+    1  date
+    2  pwd
+    3  ls
+    4  ls Desktop/
+    5  date
+    6  pwd
+    7  ls
+    8  cd Desktop/
+    9  mkdir cs_100_days_challenge
+   10  touch cs_100_days_challenge.txt
+   11  ls
+   12  cd cs_100_days_challenge/
+   13  mkdir ls_folder
+   14  cd ls_folder/
+   15  touch ls_file1.txt ls_file2.txt ls_file3.txt ls_file4.java ls_file5.html ls_file6.kt
+   16  cd ~
+   17  ls Desktop/cs_100_days_challenge/ls_folder/*.txt
+   18  cd Desktop/cs_100_days_challenge/ls_folder/
+   19  ls *.txt
+   20  clear
+   21  ls -l /
+   22  ls -lt
+   23  clear
+   24  cd ~
+   25  date
+   26  ls
+   27  cd Desktop/cs_100_days_challenge/ls_folder/
+   28  ls
+   29  cst ls_file7_out.txt
+   30  cat ls_file7_out.txt
+   31  ls > ls_file8_out.txt
+   32  cat ls_file8_out.txt
+   33  cd ~
+   34  ls
+   35  cd Desktop/
+   36  ls
+   37  ls -d */
+   38  cd cs_100_days_challenge/ls_folder/
+   39  mkdir folder(1,2)
+   40  mkdir folder{1,2}
+   41  ls
+   42  clear
+   43  mkdir folder{3,4,5}
+   44  ls
+   45  ls -d folder{1,2}
+   46  man ls
+   47  clear
+   48  touch ls_file_day6.txt
+   49  date > ls_file_day6.txt
+   50  cat ls_file_day6.txt
+   51  history >> ls_file_day6.txt
+   52  cat ls_file_day6.txt
+   53  cd ~
+   54  ls -l
+   55  cd Desktop/
+   56  ls -l
+   57  cd cs_100_days_challenge/
+   58  ls
+   59  ls -l
+   60  cd ls_folder/
+   61  ls -l
+   62  ls -l >> ls_file_day6.txt
+   63  cat ls_file_day6.txt
+   64  ls -l
+   65  clear
+   66  ls -l
+   67  clear
+   68  cd ~
+   69  clear
+   70  ls -l
+   71  cd Desktop/
+   72  ls -l
+   73  cd cs_100_days_challenge/
+   74  ls
+   75  cd ls_folder/
+   76  ls
+   77  ls -l
+   78  ls -l >> ls_file_day6.txt
+   79  cat ls_file_day6.txt
+   80  ls -l
+   81  cd ~
+   82  history >> note.txt
+   83  ls
+   84  cd
+   85  ls
+   86  rmdir delete_folder/
+   87  ls
+   88  mkdir java/ kotlin/ javascript/ python/
+   89  ls
+   90  rmdir java/ kotlin/ javascript/ python/
+   91  ls
+   92  mkdir english/ japanese/ thai/
+   93  touch english/chapter1/lesson1.txt
+   94  mkdir english/chapter1/
+   95  touch english/chapter1/lesson1.txt
+   96  ls english/chapter1/
+   97  rmdir english/ japanese/ thai/
+   98  mkdir japanese/chapter1
+   99  ls
+  100  mkdir -p japanese/chapter1
+  101  ls
+  102  rmdir japanese/
+  103  rm -r english/
+  104  ls
+  105  rm -r japanese/
+  106  ls
+  107  clear
+  108  ls
+  109  mkdir languages/
+  110  ls
+  111  mkdir -p  languages/english/chapter1
+  112  ls -R languages/
+  113  rmdir languages/english/chapter1/
+  114  ls
+  115  ls -R languages/
+  116  mkdir languages/english/vocab/
+  117  rmdir -p languages/english/vocab/
+  118  ls
+  119  mkdir -pv languages/english/vocab/
+  120  rmdir -pv languages/english/vocab/
+  121  cd
+  122  cd Desktop/
+  123  ls
+  124  cd cs_100_days_challenge/
+  125  ls
+  126  cd command_histories/
+  127  touch day9.txt
+  128  history > day9.txt
+  129  date >> day9.txt
+  130  cat day9.txt
+  131  history > day9.txt
+  132  ls
+  133  touch day_9.txt
+  134  ls
+  135  history > day_9.txt
+  136  date >> day_9.txt
+  137  ls
+  138  mkdir mv_folder
+  139  touch mv_test_file1.txt
+  140  cd mv_folder/
+  141  ls
+  142  cat >> mv_test_file1.txt
+  143  mv mv_test_file1.txt mv_file1.txt
+  144  ls
+  145  cat mv_file1.txt
+  146  mkdir mv_dir
+  147  ls
+  148  mv mv_file1.txt mv_dir/
+  149  ls
+  150  cat > mv_file1.txt
+  151  cat mv_file1.txt
+  152  ls
+  153  ls -R
+  154  mv mv_file1.txt mv_dir/
+  155  cat mv_dir/mv_file1.txt
+  156  ls
+  157  clear
+  158  date > mv_file1.txt
+  159  mv -i mv_file1.txt mv_dir/
+  160  cat mv_dir/mv_file1.txt
+  161  ls
+  162  mkdir mv_dir2/
+  163  mv mv_dir/ mv_dir2/
+  164  ls
+  165  ls mv_dir2/
+  166  mv mv_dir2/ mv_dir3/
+  167  ls
+  168  ls mv_dir3/
+  169  ls
+  170  touch mv_file2.txt mv_file3.txt
+  171  mv mv_file2.txt mv_file3.txt mv_dir3/
+  172  ls mv_dir3/
+  173  ls
+  174  mv mv_file1.txt mv_dir3/
+  175  ls
+  176  cd mv_dir3/
+  177  ls
+  178  mv * ..
+  179  cd ..
+  180  ls
+  181  mkdir mv_dir4/
+  182  mv mv_dir3/* mv_dir4/
+  183  touch mv_dir3_file1.txt mv_dir3_file2.txt
+  184  clear
+  185  mv mv_dir3/* mv_dir4/
+  186  ls
+  187  ls mv_dir4/
+  188  cd ..
+  189  cd command_histories/
+  190  history > day_11.txt
+  191  date >> day_11.txt
+  192  cat day_11.txt
+  193  cd Desktop/
+  194  cd cs_100_days_challenge/
+  195  cd command_histories/
+  196  ls
+  197  cat day_11
+  198  clear
+  199  cd ..
+  200  mkdir less_folder
+  201  cd less_folder/
+  202  touch less_file1.txt
+  203  cat less_file1.txt 
+  204  clear
+  205  cat less_file1.txt 
+  206  clear
+  207  less less_file1.txt 
+  208  date 
+  209  cd ..
+  210  ls
+  211  cd command_histories/
+  212  history > day_12.txt
+  213  date >> day_12.txt
+  214  cat day_12.txt
+  215  cd Desktop/
+  216  cd cs_100_days_challenge/
+  217  mkdir touch_folder
+  218  touch touch_file1.txt
+  219  cat > touch_file1.txt
+  220  ls -lh touch_file1.txt
+  221  touch touch_file1.txt
+  222  ls -lh touch_file1.txt
+  223  cat touch_file1.txt
+  224  clear
+  225  mkdir nano_folderr
+  226  mv nano_folderr nano_folder
+  227  nano nano_file1.txt
+  228  cat nano_file1.txt
+  229  cd nano_folder/
+  230  ls
+  231  cd ..
+  232  ls
+  233  mv nano_file1.txt nano_folder/
+  234  cd nano_folder/
+  235  ls
+  236  nano nano_file1.txt
+  237  cd ..
+  238  cd command_histories/
+  239  history > day_13.txt
+Tue Nov 25 05:44:32 PM +0630 2025

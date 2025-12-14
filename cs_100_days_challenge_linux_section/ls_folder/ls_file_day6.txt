@@ -1,0 +1,82 @@
+Tue Nov 18 08:33:30 PM +0630 2025
+    1  date
+    2  pwd
+    3  ls
+    4  ls Desktop/
+    5  date
+    6  pwd
+    7  ls
+    8  cd Desktop/
+    9  mkdir cs_100_days_challenge
+   10  touch cs_100_days_challenge.txt
+   11  ls
+   12  cd cs_100_days_challenge/
+   13  mkdir ls_folder
+   14  cd ls_folder/
+   15  touch ls_file1.txt ls_file2.txt ls_file3.txt ls_file4.java ls_file5.html ls_file6.kt
+   16  cd ~
+   17  ls Desktop/cs_100_days_challenge/ls_folder/*.txt
+   18  cd Desktop/cs_100_days_challenge/ls_folder/
+   19  ls *.txt
+   20  clear
+   21  ls -l /
+   22  ls -lt
+   23  clear
+   24  cd ~
+   25  date
+   26  ls
+   27  cd Desktop/cs_100_days_challenge/ls_folder/
+   28  ls
+   29  cst ls_file7_out.txt
+   30  cat ls_file7_out.txt
+   31  ls > ls_file8_out.txt
+   32  cat ls_file8_out.txt
+   33  cd ~
+   34  ls
+   35  cd Desktop/
+   36  ls
+   37  ls -d */
+   38  cd cs_100_days_challenge/ls_folder/
+   39  mkdir folder(1,2)
+   40  mkdir folder{1,2}
+   41  ls
+   42  clear
+   43  mkdir folder{3,4,5}
+   44  ls
+   45  ls -d folder{1,2}
+   46  man ls
+   47  clear
+   48  touch ls_file_day6.txt
+   49  date > ls_file_day6.txt
+   50  cat ls_file_day6.txt
+   51  history >> ls_file_day6.txt
+total 32
+drwxrwxr-x 2 gugu gugu 4096 Nov 18 20:28 folder1
+drwxrwxr-x 2 gugu gugu 4096 Nov 18 20:28 folder2
+drwxrwxr-x 2 gugu gugu 4096 Nov 18 20:29 folder3
+drwxrwxr-x 2 gugu gugu 4096 Nov 18 20:29 folder4
+drwxrwxr-x 2 gugu gugu 4096 Nov 18 20:29 folder5
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file1.txt
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file2.txt
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file3.txt
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file4.java
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file5.html
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file6.kt
+-rw-rw-r-- 1 gugu gugu  370 Nov 18 20:22 ls_file7_out.txt
+-rw-rw-r-- 1 gugu gugu  113 Nov 18 20:24 ls_file8_out.txt
+-rw-rw-r-- 1 gugu gugu 1185 Nov 18 20:34 ls_file_day6.txt
+total 32
+drwxrwxr-x 2 gugu gugu 4096 Nov 18 20:28 folder1
+drwxrwxr-x 2 gugu gugu 4096 Nov 18 20:28 folder2
+drwxrwxr-x 2 gugu gugu 4096 Nov 18 20:29 folder3
+drwxrwxr-x 2 gugu gugu 4096 Nov 18 20:29 folder4
+drwxrwxr-x 2 gugu gugu 4096 Nov 18 20:29 folder5
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file1.txt
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file2.txt
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file3.txt
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file4.java
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file5.html
+-rw-rw-r-- 1 gugu gugu    0 Nov 18 20:14 ls_file6.kt
+-rw-rw-r-- 1 gugu gugu  370 Nov 18 20:22 ls_file7_out.txt
+-rw-rw-r-- 1 gugu gugu  113 Nov 18 20:24 ls_file8_out.txt
+-rw-rw-r-- 1 gugu gugu 1938 Nov 18 20:44 ls_file_day6.txt
